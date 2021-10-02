@@ -1,0 +1,73 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.offering {
+  background: linear-gradient(
+      270deg,
+      rgba(27, 79, 157, 0.4) 0%,
+      rgba(28, 28, 27, 0.2) 52.08%,
+      rgba(28, 28, 27, 0.4) 100%
+    ),
+    #1b4f9d;
+  height: 702px;
+  width: 1449px;
+  font-family: "Poppins";
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 60px;
+  font-style: normal;
+}
+
+.inicial {
+  position: absolute;
+  width: 565px;
+  height: 68px;
+  left: 101px;
+  top: 142px;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+#diseno {
+  position: static;
+  left: 1.71%;
+  right: 1.71%;
+  top: 11.36%;
+  bottom: 11.36%;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
+}
+
+.ux {
+  text-align: right;
+  color: #ffffff;
+  position: absolute;
+  top: 382px;
+  right: 103px;
+  font-family: "Poppins";
+}
+
+#text1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 157.19%;
+  width: 765px;
+  height: 190px;
+  position: relative;
+  top: 26px;
+}
+
+.section2 {
+  background: #ffffff;
+  width: 1449px;
+  height: 783px;
+}
