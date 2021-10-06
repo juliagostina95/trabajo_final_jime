@@ -1,12 +1,12 @@
 /*Font*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;400;500&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;400;500&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+/*
 .offering {
   background: linear-gradient(
       270deg,
@@ -68,13 +68,13 @@
   height: 190px;
   position: relative;
   top: 26px;
-  text-align: right;
+  
 }
 
 .article-white {
-  background: #ffffff;
-  height: 610px;
-}
+  display: flex;
+  position: relative;
+  }
 
 p {
   font-family: "Open Sans";
@@ -89,28 +89,86 @@ p {
   padding-right: 10px;
 }
 
-.title-art {
+.ux-content p {
+  width: 404px;
+  line-height: 33, 6px;
+  text-align: right;
+  color: black;
+ }
+
+.ux-content {
   font-weight: 300;
   font-size: 40px;
   line-height: 60px;
-  color: #1b4f9d;
+  flex:1;
+   }
+
+#ux-content-right{
+   position: relative;
+    right: 150px;
+    top:70px;
+    text-align: right;
+    color: #1b4f9d;
+  }
+
+#down{
+position: relative;
+top: 120px;
+font-size:20px;
 }
 
-.first-article {
+.ux-product {
   margin-top: 12%;
   margin-left: 11%;
+  margin-right: 2%;
+  flex: 1;
 }
 
-.first-article p {
+.ux-product p {
   width: 404px;
   line-height: 33, 6px;
-  margin-top: 30px;
-}
+ }
+
 .right-image {
-  background: url(leon-vbxyFxlgpjM-unsplash.jpg);
-  background-blend-mode: multiply;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-image: url(/assets/imagen1.jpg);
+  background-size: cover;
+  width: 300px;
+  flex: 1;
+  position: relative;
+  background-position-x: 11%;
+  height: 653px;
 }
+
+.article-blue {
+  background-image: url(/assets/imagen1.jpg);
+  display: flex;
+  flex-direction: row-reverse;
+  flex:1;
+}  
+
+  /*PONER */
+
+.left-image {
+  margin-top: 12%;
+  margin-left: 11%;
+  margin-right: 2%;
+  flex: 1;
+}
+
+.title-art {
+  color: #1b4f9d;
+  margin-bottom: 20px;
+}
+
+/*REVISAR DOBLE UX*/
+
+/*
+.title-content {
+  margin-top: 22%;
+  margin-left: 14%;
+  margin-right: 11%;
+  flex: 1;
+  ACOMODAR TEXTO*/
 
 /* FLEXBOX
 .parent{
@@ -144,3 +202,32 @@ flex: auto;
 }
 
 */
+
+.first {
+  background: linear-gradient(
+      270deg,
+      rgba(27, 79, 157, 0.4) 0%,
+      rgba(28, 28, 27, 0.2) 52.08%,
+      rgba(28, 28, 27, 0.4) 100%
+    ),
+    #1b4f9d;
+  height: 768px;
+  width: auto;
+  color: white;
+  font-family: "Poppins";
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.p {
+  font-family: "Open Sans";
+}
+
+.second {
+}
