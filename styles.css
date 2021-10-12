@@ -78,6 +78,16 @@ h3 {
   color: #1b4f9d;
 }
 
+h6 {
+  color: #1b4f9d;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 36px;
+  font-style: normal;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
 .left {
   position: absolute;
   text-align: left;
@@ -228,15 +238,14 @@ p {
   background-position-x: 27%;
 }
 .fifth {
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-  display: flex;
+  height: 300px;
+  margin-bottom: 140px;
+  margin-top: 150px;
 }
 
 .fifth li {
   list-style: none;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 300;
   font-size: 36px;
@@ -255,13 +264,232 @@ p {
     ),
     #1b4f9d;
   height: 768px;
-  }
+}
 
-.sixth div{
+.sixth div {
   height: 450px;
   width: auto;
   padding-top: 6%;
-  padding-left:13%;
+  padding-left: 13%;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
 
+.seventh {
+  height: 642px;
+  width: auto;
+  background: linear-gradient(
+      106.78deg,
+      rgba(229, 47, 38, 0.3) 27.54%,
+      rgba(229, 47, 38, 0) 94.21%
+    ),
+    #1b4f9d;
+  margin-top: -1px;
+  display: flex;
+}
+
+.behance a {
+  background-color: white;
+  border-radius: 26px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 36px;
+  text-align: center;
+  color: #1b4f9d;
+  text-decoration: none;
+  padding: 11px 29px;
+  cursor: pointer;
+  padding-left: 35px;
+}
+
+.behance a img {
+  width: 30px;
+  margin-left: 8px;
+}
+
+.carousel-item {
+  height: 302px;
+}
+
+.behance h2 {
+  color: white;
+  width: 400px;
+  font-size: 41px;
+  line-height: 72px;
+  margin-bottom: 70px;
+  font-family: "Poppins";
+}
+
+.behance {
+  position: relative;
+  left: 153px;
+  top: 180px;
+  flex: 1;
+}
+
+.phone {
+  background-image: url("assets/pantalla-cidi.png");
+  background-size: 467px;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 467px;
+  height: 592px;
+  right: 135px;
+  top: 50px;
+}
+
+footer {
+  position: relative;
+  background-color: white;
+  height: 540px;
+  display: flex;
+  margin-bottom: 0px;
+  background-image: url("assets/logo-nombre.png");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position-x: -180px;
+  background-position-y: 120px;
+}
+
+footer ul {
+  font-weight: 400;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.secciones ul li {
+  list-style-type: none;
+  margin-left: -28px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.logo,
+.secciones,
+.contacto {
+  flex: 1;
+}
+
+#ayi-img {
+  width: 200px;
+  height: auto;
+}
+
+.logo {
+  width: 400px;
+  margin-left: 120px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.secciones h6 {
+  position: relative;
+}
+
+.secciones {
+  margin-left: -50px;
+  margin-right: -38px;
+}
+
+.secciones li a {
+  text-decoration: none;
+  color: black;
+}
+
+.secciones,
+.contacto {
+  height: 300px;
+}
+
+.contacto {
+  position: relative;
+  right: -50px;
+}
+
+.contacto ul li {
+  list-style-type: none;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  text-align: left;
+}
+.contacto li i,
+.contacto li img {
+  margin-left: -30px;
+}
+
+.contacto li i {
+  font-size: 27px;
+}
+
+.seguinos {
+  height: 200px;
+  position: relative;
+  right: 700px;
+  bottom: -325px;
+}
+
+.seguinos h6 {
+  width: 100px;
+  margin-bottom: 40px;
+  margin-left: 96px;
+}
+
+.contacto ul {
+  width: 370px;
+  margin-left: 20px;
+}
+
+.marker {
+  position: relative;
+  left: -15px;
+  bottom: -2px;
+}
+
+#phone-icon {
+  position: relative;
+  top: -2px;
+  align-content: center;
+}
+
+.socials {
+  position: relative;
+  bottom: 85px;
+  left: 250px;
+}
+
+.linkedin img {
+  width: 32px;
+}
+
+.socials a {
+  margin-right: 11px;
+}
+
+::-webkit-scrollbar {
+  width: 1.2em;
+  overflow: hidden;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100vw;
+  border: 0.2em solid white;
+  background: #1b4f9d;
+  height: 200px;
+}
